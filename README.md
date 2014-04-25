@@ -6,7 +6,7 @@ Try QUnit
 This repository contains basic examples of how to run JavaScript tests using [QUnit]().
 The tests are based on a `Calculator` object, they make sure that the four methods this object has `sum`, `substract`, `divide` and `multiply` work properly.
 
-# Running Tests
+## Running Sample Tests
 
 ```bash
 # Clone the repo and cd into it.
@@ -30,6 +30,10 @@ $ npm install
 # Run tests using Grunt
 $ grunt 
 ```
+
+## Contributing
+
+Feel free to drop us a pull request if you want to see something added to this repository.
 
 
 
