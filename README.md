@@ -10,7 +10,7 @@ The tests are based on a `Calculator` object, they make sure that the four metho
 
 ```bash
 # Clone the repo and cd into it.
-$ git clone https://github.com/PabloVallejo/try-qunit.git && cd try-grunt
+$ git clone https://github.com/PabloVallejo/try-qunit.git && cd try-qunit
 ```
 
 After cloning the pository, you can either run tests in the browser or using [Grunt]().
