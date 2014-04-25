@@ -16,10 +16,12 @@ $ git clone https://github.com/PabloVallejo/try-qunit.git && cd try-grunt
 After cloning the pository, you can either run tests in the browser or using [Grunt]().
 
 **Browser**
+![](https://raw.githubusercontent.com/PabloVallejo/try-qunit/master/qunit.png)
 
 Open `tests/index.html` directly and take a look at tests results
 
 **Grunt**
+![](https://raw.githubusercontent.com/PabloVallejo/try-qunit/master/grunt.png)
 
 ```bash
 # Install dependencies
