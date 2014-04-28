@@ -4,7 +4,7 @@ Try QUnit
 [![Build Status](https://travis-ci.org/PabloVallejo/try-qunit.svg?branch=master)](https://travis-ci.org/PabloVallejo/try-qunit)
 
 This repository contains basic examples of how to run JavaScript tests using [QUnit]().
-The tests are based on a `Calculator` object, they make sure that the four methods this object has `sum`, `substract`, `divide` and `multiply` work properly.
+The tests are based on a `Calculator` object, they make sure that the four methods this object has `sum`, `subtract`, `divide` and `multiply` work properly.
 
 ## Running Sample Tests
 

@@ -12,8 +12,8 @@
 				return a + b;
 			}
 
-			// Substract `b` to `a`
-		,	substract: function( a, b ) {
+			// Subtract `b` to `a`
+		,	subtract: function( a, b ) {
 				return a - b;
 			}
 

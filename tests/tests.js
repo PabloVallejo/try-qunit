@@ -12,10 +12,11 @@ $( document ).ready( function() {
 		equal( calc.sum( 5, 5 ), 10 );
 	});
 
-	// Test `substract` method
-	test( 'Test calculator.substract', 2, function() {
-		equal( calc.substract( 5, 5 ), 0 );
-		equal( calc.substract( 10, 1 ), 9 );
+	// Test `subtract` method
+	test( 'Test calculator.subtract', 3, function() {
+		equal( calc.subtract( 5, 5 ), 0 );
+		equal( calc.subtract( 10, 1 ), 9 );
+		ok( calc.subtract( 10000, 0 ) );
 	});
 
 	// Test `divide` method
@@ -25,9 +26,10 @@ $( document ).ready( function() {
 	});
 
 	// Test `multiply` method
-	test( 'Test calculator.multiply', 2, function() {
+	test( 'Test calculator.multiply', 3, function() {
 		equal( calc.multiply( 2, 2 ), 4 );
 		equal( calc.multiply( 4, 4 ), 16 );
+		notEqual( calc.multiply( 9, 9 ), 60 );
 	});
 
 });
